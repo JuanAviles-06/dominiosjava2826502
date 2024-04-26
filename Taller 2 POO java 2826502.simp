@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="13.96" multi-file="no" uid="simp92c3a3d53e0f46e799e7686e75044d66">
+  <meta>
+    <name>Taller 2 POO java 2826502</name>
+    <authors> juan aviles andres garces</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>3</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-5d4aee743d7f4a05a41b05d8f758af85" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-8e8eb1020e6e48d2a6b1e8b88658861e" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="p4a52a1f5827e45669dee4bf3e227a2c7_832417529" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>04/25/2024 14:13:34</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="pf0a277a913794f30bca25b755cc0ad98_870895002" name="ClassDiagram1" order-index="1" uid="" auto-routed-paths="false" default-line-style="default">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>04/25/2024 14:13:34</creation-date>
+          <change-date>04/25/2024 14:13:41</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="2c992cd85a4043a0af5c6f6ebc87bd8e" cid="PROP002" type="property" name="NewAttribute2" owner="8ac252f3d79d404d8d20780f614545cf" creator="" creation-date="04/25/2024 14:15:13" visibility="private" />
+          <item id="28ac999dcfe04524a074a638699a7008" cid="PROP001" type="property" name="nombre" owner="8ac252f3d79d404d8d20780f614545cf" creator="" creation-date="04/25/2024 14:14:29" visibility="private">
+            <structural-feature type="String" type-id="Uml.String" />
+          </item>
+          <item id="8ac252f3d79d404d8d20780f614545cf" cid="C001" type="class" name="Hospital" creator="" creation-date="04/25/2024 14:13:41">
+            <owned-items />
+            <attributes>
+              <attribute id="ab64a37c9e49d42e99394b07e9a2527f7352" cid="PROP001" name="nombre" creation-date="04/25/2024 14:14:29" property-ref="28ac999dcfe04524a074a638699a7008" />
+              <attribute id="a44ea673b7e034846849a156c8329abad747" cid="PROP002" name="NewAttribute2" creation-date="04/25/2024 14:15:13" property-ref="2c992cd85a4043a0af5c6f6ebc87bd8e" />
+            </attributes>
+          </item>
+        </abstract-items>
+        <layer id="4661cbaa4b1c449eac67e3adb6acbd59" name="Default" visible="true" enabled="true" locked="false">
+          <item id="8ac252f3d79d404d8d20780f614545cf" iid="3ff538bd05764f95b32a498d83c29e76" show-fields="true" creation-date="04/25/2024 14:13:41" order-index="0" type="entity">
+            <layout ax="110" ay="84" awidth="140" aheight="160" x="110" y="84" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
